@@ -102,7 +102,7 @@ export default function RootLayout({
       </head>
       <body
         className={`font-sans ${GeistSans.variable} ${GeistMono.variable} antialiased`}
-        style={{ cursor: "none", backgroundColor: "#252525" }}
+        style={{ backgroundColor: "#252525" }}
       >
         <CursorEffect />
         <Suspense fallback={null}>

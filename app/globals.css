@@ -276,3 +276,10 @@ main {
 html {
   scroll-behavior: smooth;
 }
+
+/* Hide cursor only on devices that actually have a mouse/trackpad */
+@media (hover: hover) and (pointer: fine) {
+  body {
+    cursor: none;
+  }
+}
