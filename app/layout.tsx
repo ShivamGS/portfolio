@@ -18,7 +18,6 @@ export const metadata: Metadata = {
     "Full-Stack Developer",
     "Software Engineer",
     "Computer Science",
-    "AI Engineer",
     "Machine Learning",
     "AWS",
     "React",
@@ -45,7 +44,7 @@ export const metadata: Metadata = {
     apple: "/images/SS_logo.png",
   },
   openGraph: {
-    title: "Shivam Sonawane | Full-Stack Developer & AI Engineer",
+    title: "Shivam Sonawane",
     description:
       "Master's student at Arizona State University. 3x Hackathon Winner. Building scalable full-stack applications and AI-powered solutions.",
     url: "https://shivamsonawane.com",
@@ -57,13 +56,13 @@ export const metadata: Metadata = {
         url: "/images/shivam-portrait.png",
         width: 500,
         height: 500,
-        alt: "Shivam Sonawane - Full-Stack Developer & AI Engineer",
+        alt: "Shivam Sonawane",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Shivam Sonawane | Full-Stack Developer & AI Engineer",
+    title: "Shivam Sonawane",
     description:
       "Master's student at Arizona State University. 3x Hackathon Winner building scalable applications with React, Node.js, AWS, and AI/ML.",
     images: ["/images/shivam-portrait.png"],
