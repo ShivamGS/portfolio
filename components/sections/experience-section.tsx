@@ -37,7 +37,7 @@ const experiences = [
     company: "LEIFII",
     companyUrl: "https://leifii.com/",
     location: "Pune, Maharashtra, India",
-    period: "Jan 202 - June 2024",
+    period: "Jan 2024 - June 2024",
     // type: "Full-time",
     achievements: [
       "Built full-stack web application for HR management using React, Node.js, Express, and MongoDB, streamlining workflows for 200+ employees and reducing manual effort by 40%.",
@@ -62,7 +62,7 @@ const experiences = [
     title: "Software Developer",
     company: "Softanic Solutions",
     location: "Pune, Maharashtra, India",
-    period: "Jan 2023 - June 2023",
+    period: "July 2023 - Dec 2023",
     // type: "Full-time",
     achievements: [
       "Developed REST APIs using Spring Boot for IT helpdesk system handling 1,000+ monthly tickets, improving support efficiency by 25% through intelligent routing and escalation workflows.",
