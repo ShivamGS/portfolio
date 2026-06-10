@@ -41,7 +41,7 @@ const skillCategories = [
   {
     title: "Cloud & DevOps",
     icon: Cloud,
-    skills: ["AWS Lambda", "AWS S3", "API Gateway", "AWS CDK", "Git", "Docker"],
+    skills: ["AWS Lambda", "AWS S3", "API Gateway", "AWS CDK", "GCP", "Git", "Docker"],
     color: "text-cyan-500",
     bgColor: "from-cyan-500/10 to-cyan-500/5",
     borderColor: "border-cyan-500/20",
@@ -49,7 +49,7 @@ const skillCategories = [
   {
     title: "AI & ML",
     icon: Brain,
-    skills: ["LangChain", "Claude API", "OpenAI API", "FAISS", "XGBoost", "RoBERTa", "CNN"],
+    skills: ["Claude Agent SDK", "MCP Servers", "Agentic AI", "LangChain", "OpenAI API", "FAISS", "XGBoost", "RoBERTa", "CNN"],
     color: "text-pink-500",
     bgColor: "from-pink-500/10 to-pink-500/5",
     borderColor: "border-pink-500/20",

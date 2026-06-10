@@ -8,11 +8,25 @@ import { useState } from "react"
 
 const experiences = [
   {
+    title: "Software Engineer Intern",
+    company: "Cequence AI",
+    companyUrl: "https://www.cequence.ai/",
+    location: "San Jose, California, USA",
+    period: "March 2026 - Present",
+    achievements: [
+      "Built an agentic AI system for Site Reliability Engineering (SRE) on the AI Gateway team using Claude Agent SDK and MCP servers.",
+      "Integrated MCP servers and Claude skills to enable the agent to interact with GCP backend infrastructure for real-time observability.",
+      "Designed a proactive communication layer that autonomously monitors production systems, surfaces insights, and debugs issues.",
+      "Enabled AI-driven root-cause analysis across distributed GCP services, reducing mean time to resolution with minimal human intervention.",
+    ],
+    technologies: ["Claude Agent SDK", "MCP Servers", "GCP", "Python", "Agentic AI", "SRE"],
+  },
+  {
     title: "Software Engineering TA",
     company: "Arizona State University",
     companyUrl: "https://www.asu.edu/",
     location: "Tempe, Arizona, USA",
-    period: "Aug 2025 - Present",
+    period: "Aug 2025 - May 2026",
     // type: "Teaching Assistant",
     achievements: [
       "Conducted technical code reviews for 300+ Java/Spring Boot projects weekly, evaluating REST API design, JUnit testing coverage, MySQL schema optimization, and MVC architecture patterns.",
@@ -282,28 +296,29 @@ export function ExperienceSection() {
                         <CardHeader className="space-y-4">
                           <div className="flex items-start justify-between gap-4">
                             <div className="space-y-3 flex-1">
-                              {/* Company icon/badge */}
-                              {/* <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-primary/10 border border-primary/20 rounded-full">
-                                <Briefcase className="w-4 h-4 text-primary" />
-                                <span className="text-sm font-medium text-primary">{experience.type}</span>
-                              </div> */}
+                              {/* Company badge - highlighted */}
+                              <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-primary/10 border border-primary/25 rounded-full group-hover:bg-primary/15 group-hover:border-primary/45 transition-all duration-300">
+                                <Briefcase className="w-3.5 h-3.5 text-primary flex-shrink-0" />
+                                {experience.companyUrl ? (
+                                  <a
+                                    href={experience.companyUrl}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:text-primary/75 transition-colors duration-300"
+                                  >
+                                    {experience.company}
+                                    <ExternalLink className="w-3 h-3 text-primary/55 flex-shrink-0" />
+                                  </a>
+                                ) : (
+                                  <span className="text-sm font-semibold text-primary">{experience.company}</span>
+                                )}
+                              </div>
 
                               <div>
                                 <CardTitle className="text-xl lg:text-2xl text-foreground mb-2 group-hover:text-primary transition-colors duration-300">
                                   {experience.title}
                                 </CardTitle>
                                 <div className="flex flex-col gap-2 text-muted-foreground text-sm">
-                                  <div className="flex items-center gap-2 group-hover:text-foreground transition-colors duration-300">
-                                    <ExternalLink className="h-4 w-4 flex-shrink-0 group-hover:scale-110 group-hover:text-primary transition-all duration-300" />
-                                    <a
-                                      href={experience.companyUrl}
-                                      target="_blank"
-                                      rel="noopener noreferrer"
-                                      className="font-medium hover:text-primary hover:underline transition-all duration-300"
-                                    >
-                                      {experience.company}
-                                    </a>
-                                  </div>
                                   <div className="flex items-center gap-2 group-hover:text-foreground transition-colors duration-300">
                                     <MapPin className="h-4 w-4 flex-shrink-0 group-hover:scale-110 group-hover:text-accent transition-all duration-300" />
                                     <span>{experience.location}</span>

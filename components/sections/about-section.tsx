@@ -78,7 +78,7 @@ export function AboutSection() {
     {
       icon: Briefcase,
       title: "Opportunities",
-      items: ["Full-time", "Co-op", "Internship"],
+      items: ["Full-time"],
       accent: "text-green-500",
       border: "border-green-500/20",
       bg: "bg-green-500/10",
@@ -86,7 +86,7 @@ export function AboutSection() {
     {
       icon: Target,
       title: "Roles",
-      items: ["Software Engineer", "Frontend", "Backend", "Full-Stack"],
+      items: ["Software Engineer", "AI Engineer", "Frontend", "Backend", "Full-Stack"],
       accent: "text-blue-500",
       border: "border-blue-500/20",
       bg: "bg-blue-500/10",
@@ -219,9 +219,10 @@ export function AboutSection() {
                   </p>
 
                   <p>
-                    Today, I'm pursuing my Master's in Computer Science at{" "}
-                    <span className="text-foreground font-medium">Arizona State University</span> (GPA 3.9/4.0), diving deeper into cloud computing, serverless architecture, and AI-powered applications. Along the way, I've won{" "}
-                    <span className="text-foreground font-medium">3 hackathons</span> including the TIAA x ASU Spark Challenge 2025, built production systems serving hundreds of users, and published research that bridges theory with real-world impact. I thrive at building systems that don't just work, they scale beautifully and solve meaningful problems.
+                    I graduated with my Master's in Computer Science from{" "}
+                    <span className="text-foreground font-medium">Arizona State University</span> (GPA 3.9/4.0) in May 2026. Along the way, I won{" "}
+                    <span className="text-foreground font-medium">3 hackathons</span> including the TIAA x ASU Spark Challenge 2025, built production systems serving hundreds of users, and published research that bridges theory with real-world impact. Today, I'm at{" "}
+                    <span className="text-foreground font-medium">Cequence AI</span> building agentic AI systems for Site Reliability Engineering — using Claude Agent SDK and MCP servers to help teams understand and debug production at a speed no human on-call rotation could match.
                   </p>
                 </div>
 

@@ -14,11 +14,11 @@ const education = [
     period: "Aug 2024 - May 2026",
     gpa: "3.9/4.0",
     highlights: [
+      "Graduated May 2026 with GPA 3.9/4.0",
       "Focus areas: Full-stack systems, cloud architecture, and AI-powered applications",
       "Software Engineering TA — mentoring, code reviews, and technical guidance at scale",
-      "Strong academic performance with GPA 3.9/4.0",
     ],
-    tags: ["MS CS", "GPA 3.9", "ASU"],
+    tags: ["MS CS", "GPA 3.9", "ASU", "Graduated 2026"],
   },
   {
     degree: "Bachelor of Engineering in Information Technology",

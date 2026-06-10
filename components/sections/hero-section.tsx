@@ -17,8 +17,9 @@ export function HeroSection() {
 
   const roles = [
     'Software Engineer',
+    'AI Engineer',
     'Full Stack Developer',
-    'Frontend Developer', 
+    'Frontend Developer',
     'Backend Developer',
     'Cloud Developer',
   ]
@@ -271,28 +272,32 @@ export function HeroSection() {
       MS CS @ ASU • GPA 3.9
     </span>
     <span className="px-3 py-1 rounded-full bg-muted/40 border border-border/50 text-muted-foreground font-medium">
-      Graduating May 2026
+      MS CS Graduate, May 2026
     </span>
     <span className="px-3 py-1 rounded-full bg-muted/40 border border-border/50 text-muted-foreground font-medium">
-      Open to Software Engineering roles
+      SW Engineer Intern @ Cequence AI
+    </span>
+    <span className="px-3 py-1 rounded-full bg-muted/40 border border-border/50 text-muted-foreground font-medium">
+      Open to Full-Time roles
     </span>
   </div>
 
   {/* 3 punchy lines (general SWE vibe) */}
   <div className="text-base lg:text-lg xl:text-xl text-muted-foreground leading-relaxed">
     <p>
-  MS Computer Science student at{" "}
+  MS Computer Science graduate from{" "}
   <span className="text-foreground font-semibold">Arizona State University</span>{" "}
-, building{" "}
-  <span className="text-foreground font-semibold">full-stack</span> and{" "}
-  <span className="text-foreground font-semibold">cloud</span> projects with a focus on clean, reliable engineering.
-  I’m currently seeking{" "}
-  <span className="text-foreground font-semibold">Software Engineering</span>{" "}
-  opportunities starting{" "}
-  <span className="text-foreground font-semibold">May 2026</span>.
+  (GPA 3.9), currently at{" "}
+  <span className="text-foreground font-semibold">Cequence AI</span>{" "}
+  building agentic AI systems for SRE using Claude Agent SDK and MCP servers.
+  Open to{" "}
+  <span className="text-foreground font-semibold">full-time Software Engineering</span>{" "}
+  and{" "}
+  <span className="text-foreground font-semibold">AI Engineering</span>{" "}
+  roles.
 </p>
 
-  
+
   </div>
 
   {/* Quick chips (broad skills) */}
@@ -420,7 +425,7 @@ export function HeroSection() {
                 <div className="text-sm lg:text-base text-muted-foreground mt-1">Projects</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl lg:text-4xl xl:text-5xl font-bold text-foreground">1+</div>
+                <div className="text-3xl lg:text-4xl xl:text-5xl font-bold text-foreground">2+</div>
                 <div className="text-sm lg:text-base text-muted-foreground mt-1">Years Experience</div>
               </div>
             </motion.div>

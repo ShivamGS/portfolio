@@ -12,8 +12,8 @@ export default function Home() {
     <main className="min-h-screen bg-background" style={{ backgroundColor: 'var(--color-background)' }}>
       <Navigation />
       <HeroSection />
-      <ProjectsSection />
       <ExperienceSection />
+      <ProjectsSection />
       <EducationSection/>
       <SkillsSection />
       <AboutSection />
